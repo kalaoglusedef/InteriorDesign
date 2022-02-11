@@ -1,0 +1,55 @@
+nav {
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  color: white;
+  background-color: #535862;
+  width: 100%;
+  height: 89px;
+  z-index: 1;
+}
+
+nav > div {
+  margin: 0 auto;
+  width: 1260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav > div > .logoText {
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFF;
+  margin-left: 61px;
+}
+
+nav > div > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+nav > div > ul > li {
+  margin-right: 90px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+nav > div > ul > li:last-child {
+  margin-right: 0px;
+}
+
+nav > div > .searchImg {
+  margin-right: 30px;
+  width: 32px;
+  height: 32px;
+}
+/*# sourceMappingURL=nav.css.map */

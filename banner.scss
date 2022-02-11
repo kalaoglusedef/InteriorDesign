@@ -1,0 +1,115 @@
+body {
+    background-image: url(./img/image1.svg);
+    background-repeat: no-repeat;
+}
+
+.banner {
+    width: 100%;
+    > div {
+        margin: 0 auto;
+        z-index: 0;
+        width: 1260px;
+        position: relative;
+        display: flex;
+
+        > .leftSide {
+            width: 474px;
+            height: 100vh;
+            background-color: #9cacc0;
+
+            > div {
+                margin-left: 60px;
+                padding-top: 267px;
+                > .header {
+                    color: #4f545c;
+                    font-size: 24px;
+                    line-height: 29px;
+                    margin: 0;
+                }
+                > .mainTitle {
+                    margin: 0px;
+                    color: white;
+                    font-size: 144px;
+                    line-height: 173px;
+                    margin-left: 4px;
+                }
+                > .contents {
+                    color: #4f545c;
+                    font-size: 24px;
+                    line-height: 29px;
+                    margin: 0px;
+                    width: 349px;
+                    height: 261px;
+                    margin-top: 27px;
+                }
+            }
+        }
+
+        > .rightSide {
+            width: 950px;
+            position: relative;
+            > .ellipse {
+                position: absolute;
+
+                background-color: #373b41;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+
+                > img {
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                    left: 15px;
+                    top: 15px;
+                }
+
+                &.first {
+                    left: 186px;
+                    top: 356px;
+                }
+
+                &.second {
+                    left: 478px;
+                    top: 530px;
+                }
+            }
+
+            > .product {
+                display: flex;
+                position: absolute;
+                top: 807px;
+                left: 494px;
+                background: rgba(156, 172, 192, 0.5);
+                box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                width: 304px;
+                height: 110px;
+                > img {
+                    width: 110px;
+                    height: 110px;
+                }
+                > .textGroup {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    > p {
+                        margin: 0px;
+                        margin-left: 19px;
+                    }
+                    > .header {
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 28.8px;
+                    }
+                    > .content {
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: rgba(0, 0, 0, 0.7);
+                    }
+                }
+            }
+        }
+    }
+}
