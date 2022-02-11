@@ -1,8 +1,8 @@
-#InteriorDesign
+# InteriorDesign
 
 ## Introduction
 
-**This project is built on HTML+SASS. :sparkles: **
+**This project is built on HTML+SASS.** :sparkles: 
 
 ## DEMO
 
